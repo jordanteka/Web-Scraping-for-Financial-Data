@@ -1,10 +1,10 @@
 Forex Rates Scraper
 
-📌 Project Overview
+Project Overview
 
 This project is a Python-based web scraper that extracts real-time Forex exchange rates from Investing.com. It gathers data on major currency pairs, including bid price, ask price, high/low prices, and percentage changes. The extracted data is saved in a CSV file for further analysis.
 
-🚀 Features
+Features
 
 Scrapes live Forex rates from Investing.com
 
@@ -14,25 +14,25 @@ Saves data to a structured CSV file for easy analysis
 
 Uses BeautifulSoup and Requests for web scraping
 
-🔧 Installation & Setup
+ Installation & Setup
 
-1️⃣ Install Dependencies
+1Install Dependencies
 
 Ensure you have Python installed, then install the required libraries:
 
 pip install requests beautifulsoup4 pandas
 
-2️⃣ Run the Script
+2 Run the Script
 
 Execute the Python script to fetch the latest Forex rates:
 
 python forex_scraper.py
 
-3️⃣ Check the Output
+3 Check the Output
 
 After running the script, you'll find a forex_rates.csv file in the project directory containing the extracted data.
 
-📊 Sample Output
+ Sample Output
 
 Currency Pair
 
@@ -76,7 +76,7 @@ GBP/USD
 
 -0.12%
 
-🛠 Technologies Used
+ Technologies Used
 
 Python: Main programming language
 
@@ -86,7 +86,7 @@ BeautifulSoup: Parses and extracts relevant Forex data
 
 Pandas: Structures and saves data in CSV format
 
-📌 Next Steps
+ Next Steps
 
 Enhance Scraper: Add support for more currency pairs
 
@@ -94,9 +94,7 @@ Automate Data Collection: Schedule daily scraping
 
 Data Visualization: Create charts for Forex trends using Matplotlib/Seaborn
 
-📜 License
+License
 
-This project is open-source under the MIT License.
-
-✅ Follow this project if you find it useful!
+This project is open-source under the MIT License. Follow this project if you find it useful!
 
